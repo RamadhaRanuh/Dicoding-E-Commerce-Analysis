@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-merge_df = pd.read_csv('merge_df.csv')
+merge_df = pd.read_csv('../dashboard/merge_df.csv')
 
 # Repeat Purchase Rate
 repeat_purchases = merge_df.groupby(['customer_id', 'product_category_name_english']).size().reset_index(name='purchase_count')
