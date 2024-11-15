@@ -25,7 +25,7 @@ streamlit run dashboard.py
 ```
 conda create --name main-ds python=3.7
 conda activate main-ds
-pip install -r requirements3,7.txt
+pip install -r requirements3.txt
 ```
 
 ## Setup Environment - Shell/Terminal
@@ -34,7 +34,7 @@ mkdir proyek_analisis_data
 cd proyek_analisis_data
 pipenv install
 pipenv shell
-pip install -r requirements3,7.txt
+pip install -r requirements3.txt
 ```
 
 ## Run steamlit app
