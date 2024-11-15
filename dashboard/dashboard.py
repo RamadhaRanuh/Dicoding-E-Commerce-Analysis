@@ -1,8 +1,15 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
-merge_df = pd.read_csv('./merge_df.csv')
+current_dir = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(current_dir, 'merge_df.csv')
+
+try:
+    merge_df = pd.read_csv(csv_path)
+except FileNotFoundError:
+    st.error(f"File not found: {csv_path}")
 
 # Repeat Purchase Rate
 repeat_purchases = merge_df.groupby(['customer_id', 'product_category_name_english']).size().reset_index(name='purchase_count')
