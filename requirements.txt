@@ -2,7 +2,6 @@ altair==5.0.1
 attrs==24.2.0
 Babel==2.14.0
 backcall==0.2.0
-backports.zoneinfo==0.2.1
 blinker==1.6.3
 branca==0.8.0
 cachetools==5.5.0
