@@ -2,7 +2,7 @@ altair==5.0.1
 attrs==24.2.0
 Babel==2.14.0
 backcall==0.2.0
-backports.zoneinfo==0.2.0
+backports.zoneinfo==0.2.1
 blinker==1.6.3
 branca==0.8.0
 cachetools==5.5.0
@@ -54,10 +54,12 @@ pydeck==0.8.1b1
 pygments==2.17.2
 Pympler==1.1
 pyparsing==3.1.4
+pyproj==3.2.1
 pyrsistent==0.19.3
 python-dateutil==2.9.0.post0
 pytz==2024.2
 pytz-deprecation-shim==0.1.0.post0
+pywin32==308
 pyzmq==26.2.0
 requests==2.31.0
 rich==13.8.1
