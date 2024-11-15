@@ -25,7 +25,7 @@ streamlit run dashboard.py
 ```
 conda create --name main-ds python=3.7
 conda activate main-ds
-pip install -r requirements.txt
+pip install -r requirements3,7.txt
 ```
 
 ## Setup Environment - Shell/Terminal
